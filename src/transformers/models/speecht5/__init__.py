@@ -62,6 +62,13 @@ else:
         "SpeechT5Model",
         "SpeechT5PreTrainedModel",
         "SpeechT5HifiGan",
+        "SpeechT5EncoderWithSpeechPrenet",
+        "SpeechT5DecoderWithSpeechPrenet",
+        "SpeechT5SpeechDecoderPostnet",
+        "SpeechT5EncoderWithTextPrenet",
+        "SpeechT5DecoderWithTextPrenet",
+        "SpeechT5TextDecoderPostnet,"
+
     ]
 
 if TYPE_CHECKING:
@@ -103,6 +110,12 @@ if TYPE_CHECKING:
             SpeechT5HifiGan,
             SpeechT5Model,
             SpeechT5PreTrainedModel,
+            SpeechT5EncoderWithSpeechPrenet,
+            SpeechT5DecoderWithSpeechPrenet,
+            SpeechT5SpeechDecoderPostnet,
+            SpeechT5EncoderWithTextPrenet,
+            SpeechT5DecoderWithTextPrenet,
+            SpeechT5TextDecoderPostnet,
         )
 
 else:
